@@ -1,0 +1,37 @@
+.App {
+  min-height: 100vh;
+  position: relative;
+  color: #e0e6ff;
+}
+
+/* Global text color classes */
+.text-primary {
+  background: linear-gradient(135deg, #9333ea, #ec4899, #3b82f6);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+}
+
+.text-purple {
+  color: #a855f7;
+}
+
+.text-pink {
+  color: #f472b6;
+}
+
+.text-blue {
+  color: #60a5fa;
+}
+
+@keyframes gradientShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}

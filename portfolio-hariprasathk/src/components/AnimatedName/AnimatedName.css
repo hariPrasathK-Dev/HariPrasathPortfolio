@@ -1,0 +1,76 @@
+.animated-name {
+  font-size: 1.8rem;
+  font-weight: 700;
+  min-height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.typewriter-text {
+  background: linear-gradient(135deg, #a855f7, #f472b6, #60a5fa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease infinite;
+  position: relative;
+  display: inline-block;
+  filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.4));
+}
+
+.cursor {
+  background: linear-gradient(135deg, #a855f7, #f472b6, #60a5fa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 300;
+  margin-left: 2px;
+  display: inline-block;
+  animation: cursorGlow 1s ease-in-out infinite alternate;
+}
+
+.cursor.visible {
+  opacity: 1;
+}
+
+.cursor.hidden {
+  opacity: 0;
+}
+
+@keyframes gradientShift {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes cursorGlow {
+  0% {
+    filter: drop-shadow(0 0 5px rgba(168, 85, 247, 0.5));
+    transform: scaleY(1);
+  }
+  100% {
+    filter: drop-shadow(0 0 15px rgba(168, 85, 247, 0.8));
+    transform: scaleY(1.1);
+  }
+}
+
+/* Add a subtle typing sound effect with CSS */
+@keyframes typewriterEffect {
+  0% {
+    transform: translateX(0);
+  }
+  1% {
+    transform: translateX(1px);
+  }
+  2% {
+    transform: translateX(0);
+  }
+}
+
+.typewriter-text:not(:empty) {
+  animation: typewriterEffect 0.15s ease-out;
+}
