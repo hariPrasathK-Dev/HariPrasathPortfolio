@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
+import About from './components/About/About' ;
 import "./App.css";
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
       <div className="particles"></div>
       <Header />
       <Home />
+      <About />
     </div>
   );
 }
