@@ -11,6 +11,18 @@ const Header = () => {
     "Contact",
   ];
 
+  const handleSmoothScroll = (e, targetId) => {
+    e.preventDefault();
+    const targetElement = document.getElementById(targetId.toLowerCase());
+    if (targetElement) {
+      targetElement.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+        inline: "nearest",
+      });
+    }
+  };
+
   return (
     <header className="header">
       <div className="header-container">
@@ -22,7 +34,11 @@ const Header = () => {
           <ul className="nav-list">
             {navItems.map((item) => (
               <li key={item} className="nav-item">
-                <a href={`#${item.toLowerCase()}`} className="nav-link">
+                <a
+                  href={`#${item.toLowerCase()}`}
+                  className="nav-link"
+                  onClick={(e) => handleSmoothScroll(e, item)}
+                >
                   {item}
                 </a>
               </li>
