@@ -14,7 +14,8 @@ const Projects = () => {
   // Projects data structure - easily modifiable
   const projectsData = [
     // Frontend Projects
-    {
+
+   /* {
       id: 1,
       title: "E-Commerce Landing Page",
       description:
@@ -147,7 +148,7 @@ const Projects = () => {
       liveDemo: "#",
       sourceCode: "#",
       featured: true,
-    },
+    } */
   ];
 
   const filterCategories = ["All", "Frontend", "Backend", "Full Stack"];

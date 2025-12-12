@@ -8,7 +8,7 @@ const Home = () => {
   const [isComplete, setIsComplete] = useState(false);
 
   const fullText =
-    "Hi, I'm Hari Prasath K 👨‍💻 | Full Stack Developer • Innovator • Tech Explorer";
+    "Hi, I'm Hari Prasath K 👨‍💻 | Full Stack Developer • Web3 Developer • Tech Explorer";
 
   useEffect(() => {
     if (displayedText.length < fullText.length) {
@@ -75,11 +75,7 @@ const Home = () => {
             <span className="btn-icon">💬</span>
           </button>
         </div>
-
-        <div className="scroll-indicator">
-          <div className="scroll-arrow">↓</div>
-          <div className="scroll-text">Scroll to explore</div>
-        </div>
+        
       </div>
     </section>
   );

@@ -12,39 +12,35 @@ const Skills = () => {
   // Skills data structure - easily modifiable
   const skillsData = {
     "Programming Languages": [
-      { name: "JavaScript", level: 90, icon: "🟨" },
+      { name: "Java", level: 90, icon: "☕" },
       { name: "Python", level: 85, icon: "🐍" },
-      { name: "TypeScript", level: 80, icon: "🔷" },
-      { name: "Java", level: 75, icon: "☕" },
+      { name: "C", level: 70, icon: "🏗️" },
       { name: "C++", level: 70, icon: "⚡" },
+      { name: "JavaScript", level: 80, icon: "🟨"  },
+      { name: "TypeScript", level: 80, icon: "🔷" },
     ],
     "Frontend Frameworks": [
       { name: "React", level: 90, icon: "⚛️" },
       { name: "Next.js", level: 85, icon: "▲" },
-      { name: "Vue.js", level: 75, icon: "💚" },
       { name: "HTML/CSS", level: 95, icon: "🌐" },
-      { name: "Tailwind CSS", level: 80, icon: "🎨" },
+      { name: "Tailwind CSS", level: 60, icon: "🎨" },
     ],
     "Backend Frameworks": [
       { name: "Node.js", level: 85, icon: "🟢" },
       { name: "Express.js", level: 80, icon: "🚀" },
-      { name: "Django", level: 70, icon: "🐍" },
-      { name: "Flask", level: 65, icon: "🔥" },
-      { name: "FastAPI", level: 60, icon: "⚡" },
+      {name: "Spring", level: 60, icon: "❄️"}
     ],
-    Tools: [
-      { name: "Git & GitHub", level: 90, icon: "🐙" },
+    "Tools": [
+      { name: "Git & GitHub", level: 85, icon: "🐙" },
       { name: "VS Code", level: 95, icon: "💻" },
-      { name: "Docker", level: 70, icon: "🐳" },
-      { name: "Figma", level: 75, icon: "🎨" },
+      { name: "Docker", level: 50, icon: "🐳" },
       { name: "Postman", level: 85, icon: "📮" },
     ],
-    Databases: [
-      { name: "MongoDB", level: 80, icon: "🍃" },
-      { name: "MySQL", level: 75, icon: "🐬" },
+    "Databases": [
+      { name: "MySQL", level: 90, icon: "🐬" },
       { name: "PostgreSQL", level: 70, icon: "🐘" },
-      { name: "Redis", level: 65, icon: "🔴" },
-      { name: "Firebase", level: 75, icon: "🔥" },
+      { name: "MongoDB", level: 80, icon: "🍃" },
+      { name: "supabase", level: 70, icon: "🔥" },
     ],
   };
 

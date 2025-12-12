@@ -7,25 +7,32 @@ const About = () => {
   const timelineData = [
     {
       year: "2021",
-      title: "Started Coding Journey",
-      description:
-        "Wrote my first lines of HTML and fell in love with web development",
+      title: "Started Coding Journey in C++",
+      description: "Wrote my first lines of Code as a Computer Science Student",
     },
     {
       year: "2022",
-      title: "First Professional Project",
-      description: "Developed and deployed my first full-stack application",
+      title: "Started Learning Python",
+      description: "Experimented things out using Python",
     },
     {
       year: "2023",
-      title: "Expanded Tech Stack",
-      description: "Mastered React and began exploring backend technologies",
+      title:
+        "Learnt 'Java' and got interested towards the Object oriented and Structured way of the language",
+      description:
+        "Got my hands-on experience in java and learnt the theoretical and fundamental aspects of OOP",
     },
     {
       year: "2024",
-      title: "Full Stack Development",
+      title: "Backend Development using Java",
       description:
-        "Building complete solutions and mentoring junior developers",
+        "Started exploring Backend developement of web applications using 'Java Spring Framework'",
+    },
+    {
+      year: "2025",
+      title: "Full stack Developemt",
+      description:
+        "Learnt and got hands-on experience on Full Stack web application development using MERN",
     },
   ];
 
@@ -83,29 +90,33 @@ const About = () => {
             <h3 className="bio-title">Who is Hari Prasath?</h3>
             <div className="bio-text">
               <p>
-                I am Hari Prasath, a dedicated and enthusiastic Full Stack
-                Developer with a strong drive to engineer scalable, robust, and
-                intuitive digital solutions. My journey into the world of
-                technology began with an early curiosity about how software
-                powers modern life, evolving into a deep passion for building
-                applications that make a meaningful impact.
+                I am Hari Prasath K, a passionate Full-Stack and Web3 Developer
+                with a strong curiosity for emerging technologies such as AI/ML
+                and Quantum Computing. I enjoy building meaningful digital
+                experiences and exploring how cutting-edge systems can shape the
+                future. My primary programming language is Java, and I
+                constantly push myself to experiment, break things, learn, and
+                improve through hands-on problem solving.
               </p>
+
               <p>
-                I possess hands-on experience in both frontend and backend
-                development, with a solid command of modern frameworks and tools
-                such as React, Next.js, Node.js, Express, and MongoDB. I thrive
-                on crafting seamless user interfaces while ensuring efficient,
-                secure, and scalable backend architectures. My focus lies in
-                delivering clean, maintainable code and user-centric designs,
-                with an emphasis on performance and responsiveness.
+                Beyond development, I’m driven by the mindset of continuous
+                learning. Whether it’s understanding blockchain fundamentals,
+                experimenting with smart contract tools, or deepening my backend
+                engineering skills, I take every project as a chance to upgrade
+                myself. I believe in writing clean, maintainable code—and more
+                importantly, understanding why something works rather than just
+                how to implement it.
               </p>
+
               <p>
-                Outside of development, I enjoy diving into tech research,
-                exploring AI and system design, writing technical blogs,
-                mentoring aspiring developers, and contributing to developer
-                communities. I believe that great software is a blend of
-                creativity, logic, and empathy—and I aim to bring all three into
-                everything I build.
+                I actively work on projects that challenge me to think
+                critically, collaborate effectively, and innovate confidently.
+                As I aim to grow into a well-rounded engineering professional,
+                I’m building a portfolio that reflects my journey—one filled
+                with curiosity, discipline, and a genuine love for technology.
+                My goal is to create solutions that are not only functional but
+                also future-ready.
               </p>
             </div>
           </div>
